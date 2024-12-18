@@ -393,7 +393,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 1H_Melee_Attack_Chop
-  m_Speed: 1
+  m_Speed: 1.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 711849337880760331}
@@ -408,7 +408,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 68ebaae6a832b574eb293aa79d6184b2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 78c74e5836b028542a9854c10879abad, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
