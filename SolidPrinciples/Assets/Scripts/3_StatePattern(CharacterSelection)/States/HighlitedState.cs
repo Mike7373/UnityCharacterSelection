@@ -8,6 +8,7 @@ public class HighlitedState : ICharacterState
     {
         _light = character.Light;
         _light.enabled = false;
+        _light.color = Color.red;
     }
     
     public void EnterState()

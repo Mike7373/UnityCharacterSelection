@@ -17,6 +17,7 @@ public class ToCandidateState : ICharacterState
         _targetPosition = targetPos;
         _speed = character.ToCandidateSpeed;
         _light = character.Light;
+        _light.color = Color.white;
         if (_currentCandidate != null)
         {
             _currentCandidate.StopAllCoroutines();
