@@ -1,0 +1,387 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Mike/Unity/SolidPrinciples
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50466
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Mike/Unity/SolidPrinciples
+C:/Users/Mike/Unity/SolidPrinciples
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24100]  Target information:
+
+Player connection [24100]  * "[IP] 192.168.1.204 [Port] 0 [Flags] 2 [Guid] 590107712 [EditorId] 590107712 [Version] 1048832 [Id] WindowsEditor(7,LaptopMike) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24100] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24100] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mike/Unity/SolidPrinciples/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008231 seconds.
+- Loaded All Assemblies, in  1.960 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.272 seconds
+Domain Reload Profiling: 3227ms
+	BeginReloadAssembly (1034ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (7ms)
+	RebuildCommonClasses (168ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (216ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (1011ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (493ms)
+			TypeCache.Refresh (488ms)
+				TypeCache.ScanAssembly (439ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1018ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (365ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 23.517 seconds
+Refreshing native plugins compatible for Editor in 6.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.571 seconds
+Domain Reload Profiling: 27073ms
+	BeginReloadAssembly (2585ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (20608ms)
+		LoadAssemblies (11782ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9337ms)
+			TypeCache.Refresh (9114ms)
+				TypeCache.ScanAssembly (9040ms)
+			BuildScriptInfoCaches (181ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (526ms)
+			ProcessInitializeOnLoadAttributes (1704ms)
+			ProcessInitializeOnLoadMethodAttributes (288ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.48 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5936 unused Assets / (5.0 MB). Loaded Objects now: 6724.
+Memory consumption went from 185.3 MB to 180.3 MB.
+Total: 41.686500 ms (FindLiveObjects: 4.333000 ms CreateObjectMapping: 4.172600 ms MarkObjects: 21.991500 ms  DeleteObjects: 11.184600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7715.539723 seconds.
+  path: Assets/Scripts/3_StatePattern(CharacterSelection)/Materials/Ground.mat
+  artifactKey: Guid(4194089111d8b6a4bbcf0a2615037e3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3_StatePattern(CharacterSelection)/Materials/Ground.mat using Guid(4194089111d8b6a4bbcf0a2615037e3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e41cc31ec02e6a3a4e74cf8a2ddf7744') in 1.0514805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Orkassasin/Animation/orkassasin@strafeleft.fbx
+  artifactKey: Guid(9af3fe0d968f2ea45bd70213b90ed2b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Animation/orkassasin@strafeleft.fbx using Guid(9af3fe0d968f2ea45bd70213b90ed2b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '084b42dbe5a85f099dcc318847aef726') in 0.5821462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 477
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Orkassasin/Animation/orkassasin@sneakcrunchback.fbx
+  artifactKey: Guid(2c59fac37cd171d47b14f8031a72b2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Animation/orkassasin@sneakcrunchback.fbx using Guid(2c59fac37cd171d47b14f8031a72b2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6822ea7d25cb4bb0a86c3c05b7a7a0bf') in 0.3579457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 477
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Necromanser/Texture/necromant_Body_Emission.tga
+  artifactKey: Guid(c9e2227c9d9284a47bac02533930beef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Texture/necromant_Body_Emission.tga using Guid(c9e2227c9d9284a47bac02533930beef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9af0a87564f346eae3a76daae92f69d') in 0.3752687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Scripts/3_StatePattern(CharacterSelection)/StateScene/LightingData.asset
+  artifactKey: Guid(bd40e396be780014dbb97b1fe9b12d13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3_StatePattern(CharacterSelection)/StateScene/LightingData.asset using Guid(bd40e396be780014dbb97b1fe9b12d13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9438f97a379742bc8d03387fd459ce4') in 0.1414499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Necromanser/Materials/Mat_Necromanser_Weapon.mat
+  artifactKey: Guid(18f94db57777bac448b053191afebd49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Materials/Mat_Necromanser_Weapon.mat using Guid(18f94db57777bac448b053191afebd49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66c0ad4fdbb080cb6c320cd5963057f1') in 0.2400442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_0_Front+Z.png
+  artifactKey: Guid(5fdaaa9d974104e6d8f9e575170a0c70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_0_Front+Z.png using Guid(5fdaaa9d974104e6d8f9e575170a0c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4aad93a8bb105680c032f1c815a389f') in 0.1968825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Necromanser/Animations/Necromancer@death.fbx
+  artifactKey: Guid(75880581ac3df894f8816241f5b83158) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Animations/Necromancer@death.fbx using Guid(75880581ac3df894f8816241f5b83158) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b0771e7fa05a49ad1a1b59fe3c81e12') in 0.9201941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1157
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Necromanser/Animations/Necromancer@idle1.fbx
+  artifactKey: Guid(3ae3c40623bad774a9ec5da986f09039) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Animations/Necromancer@idle1.fbx using Guid(3ae3c40623bad774a9ec5da986f09039) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41d3a3de70a5d1da1bf9771a749e7826') in 0.9701945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1157
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Necromanser/Stand/Standard_Two_Sided .shader
+  artifactKey: Guid(fb22f560333c7714b9f57e951dbaad60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Stand/Standard_Two_Sided .shader using Guid(fb22f560333c7714b9f57e951dbaad60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54ff330460d7ec08d253637a1af26be6') in 0.1295629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Crusader tank/base mesh/Crusader tank Base mesh.fbx
+  artifactKey: Guid(ea3c190656c1be74bba0bd65a3905278) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Crusader tank/base mesh/Crusader tank Base mesh.fbx using Guid(ea3c190656c1be74bba0bd65a3905278) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48f1977d61e049e8c2423fb497f097ac') in 0.3301623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 367
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Orkassasin/Animation/orkassasin@gethit.fbx
+  artifactKey: Guid(9b59f6453999021469ada235fcc7960e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Animation/orkassasin@gethit.fbx using Guid(9b59f6453999021469ada235fcc7960e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '906f88a1786370b9017d6a369c6ac3ae') in 0.2480272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 477
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scripts/1_CompositePattern/Button.prefab
+  artifactKey: Guid(78cafbbc42922fb4198c33715302f7ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/1_CompositePattern/Button.prefab using Guid(78cafbbc42922fb4198c33715302f7ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dac47cac8e1d8f578fc69d5295d724db') in 0.7160419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Orkassasin/Texture/1_Leggs_Occlusion.tga
+  artifactKey: Guid(a1d49f060bc449c40818be8293019a9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Texture/1_Leggs_Occlusion.tga using Guid(a1d49f060bc449c40818be8293019a9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d995fda4720be676b731ca739c32090') in 0.0997092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Orkassasin/Material/body.mat
+  artifactKey: Guid(62e9bbcc87b77b54694d0188eb582f0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Material/body.mat using Guid(62e9bbcc87b77b54694d0188eb582f0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21a46fb10f6ac45225b724142be1f6c6') in 0.6095498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Orkassasin/Texture/1_Armor_Occlusion.tga
+  artifactKey: Guid(01b7f9023c888b244a5f925d0672de6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Texture/1_Armor_Occlusion.tga using Guid(01b7f9023c888b244a5f925d0672de6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83907e7f4389bb72da7d3c06e80a152c') in 0.1592231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Orkassasin/Texture/1_Albedo.tga
+  artifactKey: Guid(0eec0b73127f48540a3f4440b05504d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Texture/1_Albedo.tga using Guid(0eec0b73127f48540a3f4440b05504d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5abd43d694d742116a38e02cf0bcc92') in 0.1521071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Orkassasin/Texture/1_Head_Emission.tga
+  artifactKey: Guid(1c54e31eba7ab254b8037bdadc26f741) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Texture/1_Head_Emission.tga using Guid(1c54e31eba7ab254b8037bdadc26f741) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11db08776bb00499a2cb520adcbf30de') in 0.1438489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scripts/2_ObserverPattern/IObserver.cs
+  artifactKey: Guid(2578a42d416e57c489f184e7f6aba1a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/2_ObserverPattern/IObserver.cs using Guid(2578a42d416e57c489f184e7f6aba1a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29421ef8674129d3aff67d2286209ae1') in 0.0998222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_1_Back-Z.png
+  artifactKey: Guid(5e2aba0844c5a4c2ca77ba49a1ea08d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_1_Back-Z.png using Guid(5e2aba0844c5a4c2ca77ba49a1ea08d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db3177df735396ee24c2912d250a38c2') in 0.1682698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Crusader tank/animation/crusadershield@walk.fbx
+  artifactKey: Guid(fd9a48f8e8a12274fac6dce99d981f80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Crusader tank/animation/crusadershield@walk.fbx using Guid(fd9a48f8e8a12274fac6dce99d981f80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afbe4e95448f0f7d5b030cf90db1f772') in 0.2804967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 549
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Necromanser/Prefab
+  artifactKey: Guid(b08908f6ff4e6d647bb0f6bb831a7dc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Prefab using Guid(b08908f6ff4e6d647bb0f6bb831a7dc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '834272f3fa1549d91325e4c811c867c6') in 0.0538474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Necromanser/Animations
+  artifactKey: Guid(29106f02f7dd8d5488bb0cfbe38cc4ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Necromanser/Animations using Guid(29106f02f7dd8d5488bb0cfbe38cc4ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e503633ba7c8dded6e390be8e83667ee') in 0.0805226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Orkassasin/Animation/orkassasin@atack23.fbx
+  artifactKey: Guid(478131f587f08a047ac7502a7f386ae4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Orkassasin/Animation/orkassasin@atack23.fbx using Guid(478131f587f08a047ac7502a7f386ae4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67fc19e7a6a76ff732bedc8e98f3b471') in 0.3841627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 477
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scripts/1_CompositePattern/StatType.cs
+  artifactKey: Guid(0f9bc4ade854dd34e9a94ac004d4c7bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/1_CompositePattern/StatType.cs using Guid(0f9bc4ade854dd34e9a94ac004d4c7bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79c072889a2739e74a6806fe51c9aca6') in 0.034396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
