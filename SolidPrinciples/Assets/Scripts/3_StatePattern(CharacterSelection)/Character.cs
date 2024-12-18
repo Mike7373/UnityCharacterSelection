@@ -15,15 +15,18 @@ public class Character : MonoBehaviour
 
     public string CharacterName => _characterName;
     public Stats CharacterStats => _stats;
+    public Light Light => _light;
     public float ToCandidateSpeed => _toCandidateSpeed;
     public float ToOverviewSpeed => _toOverviewSpeed;
     public Vector3 StartingPosition { get; private set; }
+    public Vector3 StartingRotation { get; private set; }
     private Vector3 _candidatePosition;
     private ICharacterState _currentState;
 
     void Start()
     {
         StartingPosition = transform.position;
+        StartingRotation = transform.rotation.eulerAngles;
         _candidatePosition = _candidateTransform.position;
         _currentState = new OverviewState();
         _currentState.EnterState();
@@ -53,7 +56,7 @@ public class Character : MonoBehaviour
     {
         if (_currentState.GetType() == typeof(OverviewState))
         {
-            SetState(new HighlitedState(_light));
+            SetState(new HighlitedState(this));
         }
     }
 

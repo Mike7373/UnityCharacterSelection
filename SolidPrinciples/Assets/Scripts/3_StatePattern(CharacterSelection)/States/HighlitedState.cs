@@ -4,9 +4,9 @@ public class HighlitedState : ICharacterState
 {
     private Light _light;
 
-    public HighlitedState(Light light)
+    public HighlitedState(Character character)
     {
-        _light = light;
+        _light = character.Light;
         _light.enabled = false;
     }
     

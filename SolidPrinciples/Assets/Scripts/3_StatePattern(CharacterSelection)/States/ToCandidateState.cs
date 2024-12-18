@@ -8,6 +8,7 @@ public class ToCandidateState : ICharacterState
     private Character _character;
     private Vector3 _targetPosition;
     private float _speed;
+    private Light _light;
 
     public ToCandidateState(Animator animator, Character character, Vector3 targetPos)
     {
@@ -15,6 +16,7 @@ public class ToCandidateState : ICharacterState
         _character = character;
         _targetPosition = targetPos;
         _speed = character.ToCandidateSpeed;
+        _light = character.Light;
         if (_currentCandidate != null)
         {
             _currentCandidate.StopAllCoroutines();
@@ -27,6 +29,7 @@ public class ToCandidateState : ICharacterState
     
     public void EnterState()
     {
+        _light.enabled = true;
         _animator.SetBool("toCandidate", true);
         _character.StartCoroutine(Move());
         Debug.Log("[ToCandidateState] Enter...");
@@ -39,7 +42,9 @@ public class ToCandidateState : ICharacterState
 
     public void ExitState()
     {
+        _light.enabled = false;
         _animator.SetBool("toCandidate", false);
+        _character.transform.eulerAngles = _character.StartingRotation;
         Debug.Log("[ToCandidateState] Exit...");
     }
     
@@ -50,6 +55,7 @@ public class ToCandidateState : ICharacterState
         while (Vector3.Distance(transform.position, _targetPosition) > 0.1f)
         {
             transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed*Time.deltaTime);
+            transform.LookAt(_targetPosition);
             yield return null;
         }
         _character.SetState(new CandidateState(_animator,_character));
